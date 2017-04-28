@@ -1,0 +1,19 @@
+Antes de todo, hay que aclarar que el diseño y distribución de los botones no es para nada definitivo, así como la distribución de los productos y precios que no es la mejor para estos casos pero está así a petición del cliente (un familiar mio) para asemejarse a lo que usa actualmente.
+
+Pasos para hacer funcionar la aplicación web:
+
+	1. Se necesita crear una BD llamada granja4 con cotejamiento UTF-8 Spanish-CI
+
+	2. Utilizar el importador para cargar el fichero granja.sql y que esté listo para usarse.
+
+	3. Para entrar en la aplicacion, utilizar el usuario y contraseña huevos/huevos.
+
+ACLARACIÓN: El nombre de los clientes y productos es ficticio, ya que no puedo publicar datos reales por la LOPD
+
+La parte de añadir/editar/borrar productos funciona correctamente, al mismo tiempo que los clientes.
+
+Además, tratandose de un negocio mayorista es posible que algunos clientes tengan precios especiales. Para ello, basta con ir a clientes/seleccionar cliente y en la derecha puedes añadir un precio especial a un determinado cliente.
+
+La parte de ventas, facuturas y compras está sin desarrollar, ya que estoy a la espera de poder hacer una migración de la base de datos de su sistema actual. Debido a la carga de trabajo que tienen de cara al verano ahora mismo el familiar mio que lo maneja no tiene tiempo para hacer unos ajustes necesarios antes de hacer la migración, por lo cual el proyecto está en pausa
+
+Proximamente sustituiré todas las consultas de la base de datos para uasr PDO (el cual estoy aprendiendo a utilizar) en vez de mysqli, para aumentar la seguridad del sistema.

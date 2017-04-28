@@ -1,0 +1,2 @@
+Esta versión es totalmente funcional en cuanto a añadir y editar clientes, productos y precios a los mismos. Similar a lo que actualmente se está usando en la PDA
+Para que funcione en el host hostinger, hay que utilizar el fichero funciones dentro de la carpeta hostinger, en lugar de el que está en la carpeta raiz ya que tiene el usuario y contraseña para la conexión con la bd de hostinger
